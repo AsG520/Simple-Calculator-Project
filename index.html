@@ -1,0 +1,111 @@
+<!-- Structure of the calculator. -->
+<!-- Video Reference: Build this JS calculator in 15 minutes! (YouTube) - https://www.youtube.com/watch?v=I5kj-YsmWjM -->
+<!DOCTYPE >
+<html>
+  <head>
+    <link rel="shortcut icon" href="calculator-logo.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <input id="display" value="" type="text" readonly />
+        <input id="button-clear" type="button" value="AC" />
+        <input id="button-delete" type="button" value="DEL" />
+        <input id="button-root" type="button" value="√" />
+        <input
+          onclick="showDisplay('/')"
+          id="button-divide"
+          type="button"
+          value="/"
+        />
+        <input
+          onclick="showDisplay('7')"
+          id="button-seven"
+          type="button"
+          value="7"
+        />
+        <input
+          onclick="showDisplay('8')"
+          id="button-eight"
+          type="button"
+          value="8"
+        />
+        <input
+          onclick="showDisplay('9')"
+          id="button-nine"
+          type="button"
+          value="9"
+        />
+        <input
+          onclick="showDisplay('*')"
+          id="button-multiply"
+          type="button"
+          value="*"
+        />
+        <input
+          onclick="showDisplay('4')"
+          id="button-four"
+          type="button"
+          value="4"
+        />
+        <input
+          onclick="showDisplay('5')"
+          id="button-five"
+          type="button"
+          value="5"
+        />
+        <input
+          onclick="showDisplay('6')"
+          id="button-six"
+          type="button"
+          value="6"
+        />
+        <input
+          onclick="showDisplay('-')"
+          id="button-minus"
+          type="button"
+          value="-"
+        />
+        <input
+          onclick="showDisplay('1')"
+          id="button-one"
+          type="button"
+          value="1"
+        />
+        <input
+          onclick="showDisplay('2')"
+          id="button-two"
+          type="button"
+          value="2"
+        />
+        <input
+          onclick="showDisplay('3')"
+          id="button-three"
+          type="button"
+          value="3"
+        />
+        <input
+          onclick="showDisplay('+')"
+          id="button-addition"
+          type="button"
+          value="+"
+        />
+        <input
+          onclick="showDisplay('0')"
+          id="button-zero"
+          type="button"
+          value="0"
+        />
+        <input
+          onclick="showDisplay('.')"
+          id="button-point"
+          type="button"
+          value="."
+        />
+        <input id="button-equal" type="button" value="=" />
+      </div>
+    </form>
+    <script src="function.js"></script>
+  </body>
+</html>

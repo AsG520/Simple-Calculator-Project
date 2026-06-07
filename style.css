@@ -1,0 +1,327 @@
+/* Note: Style of the calculator. */ 
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #29323c, #485563);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container {
+    background-color: #071115;
+    height: 285px;
+    width: 213px;
+    border-top: none;
+    border-bottom: none;
+    position: sticky;
+    border-left: none;
+    border-right: none;
+    box-shadow: 0px 0px 35px whitesmoke;
+    animation-name: containerAppear;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    overflow: hidden;
+    animation-name: changeShadowColor;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-duration: 10s;
+}
+
+@keyframes changeShadowColor {
+    0% {
+        box-shadow: 0px 0px 35px #2e1f39;
+    }
+    10% {
+        box-shadow: 0px 0px 35px white;
+    }
+    20% {
+        box-shadow: 0px 0px 35px silver;
+    }
+    30% {
+        box-shadow: 0px 0px 35px black;
+    }
+    40% {
+        box-shadow: 0px 0px 35px #223323;
+    }
+    50% {
+        box-shadow: 0px 0px 35px purple;
+    }
+    60% {
+        box-shadow: 0px 0px 35px #1b2f38;
+    }
+    70% {
+        box-shadow: 0px 0px 35px darkmagenta;
+    }
+    80% {
+        box-shadow: 0px 0px 35px blue;
+    }
+    90% {
+        box-shadow: 0px 0px 35px darkcyan;
+    }
+    100% {
+        box-shadow: 0px 0px 35px darkslategray;
+    }
+}
+
+@keyframes containerAppear {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#button-one, #button-two, #button-three, 
+#button-four, #button-five, #button-six, 
+#button-seven, #button-eight, #button-nine, 
+#button-zero, #button-divide, #button-multiply,
+#button-minus, #button-addition, #button-equal,
+#button-point, #button-clear, #button-delete, #button-root {
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    animation-name: appearNumbers;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes appearNumbers {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#button-point {
+    background-color: darkslategray;
+}
+
+#button-one:hover {
+    background-color: darkslategray;
+}
+
+#button-one:active {
+    transform: translateY(1.5px);
+}
+
+#button-two:hover {
+    background-color: darkslategray;
+}
+
+#button-two:active {
+    transform: translateY(1.5px);
+}
+
+#button-three:hover {
+    background-color: darkslategray;
+}
+
+#button-three:active {
+    transform: translateY(1.5px);
+}
+
+#button-four:hover {
+    background-color: darkslategray;
+}
+
+#button-four:active {
+    transform: translateY(1.5px);
+}
+
+#button-five:hover {
+    background-color: darkslategray;
+}
+
+#button-five:active {
+    transform: translateY(1.5px);
+}
+
+#button-six:hover {
+    background-color: darkslategray;
+}
+
+#button-six:active {
+    transform: translateY(1.5px);
+}
+
+#button-seven:hover {
+    background-color: darkslategray;
+}
+
+#button-seven:active {
+    transform: translateY(1.5px);
+}
+
+#button-eight:hover {
+    background-color: darkslategray;
+}
+
+#button-eight:active {
+    transform: translateY(1.5px);
+}
+
+#button-nine:hover {
+    background-color: darkslategray;
+}
+
+#button-nine:active {
+    transform: translateY(1.5px);
+}
+
+#button-zero:hover {
+    background-color: darkslategray;
+}
+
+#button-zero:active {
+    transform: translateY(1.5px);
+}
+
+#button-divide:hover {
+    background-color: darkslategray;
+}
+
+#button-divide:active {
+    transform: translateY(1.5px);
+}
+
+#button-multiply:hover {
+    background-color: darkslategray;
+}
+
+#button-multiply:active {
+    transform: translateY(1.5px);
+}
+
+#button-minus:hover {
+    background-color: darkslategray;
+}
+
+#button-minus:active {
+    transform: translateY(1.5px);
+}
+
+#button-addition:hover {
+    background-color: darkslategray;
+}
+
+#button-addition:active {
+    transform: translateY(1.5px);
+}
+
+#button-equal:hover {
+    background-color: darkslategray;
+}
+
+#button-equal:active {
+    transform: translateY(1.5px);
+}
+
+#button-point:hover {
+    background-color: darkslategray;
+}
+
+#button-point:active {
+    transform: translateY(1.5px);
+}
+
+#button-clear:hover {
+    background-color: darkslategray;
+}
+
+#button-clear:active {
+    transform: translateY(1.5px);
+}
+
+#display {
+    height: 30px;
+    width: 220px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    background-color: #071115;
+    font-weight: 900;
+    animation: appearDisplay;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+}
+
+@keyframes appearDisplay {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#button-delete:hover {
+    background-color: darkslategray;
+}
+
+#button-delete:active {
+    transform: translateY(1.5px);
+}
+
+#button-root:hover {
+    background-color: darkslategray;
+}
+
+#button-root:active {
+    transform: translateY(1.5px);
+}
+
+#button-one, #button-two, #button-three, #button-four,
+#button-five, #button-six, #button-seven, #button-eight,
+#button-nine, #button-zero, #button-point {
+    background-color: #1b2f38;
+    color: white;
+    font-weight: 900;
+}
+
+#button-zero {
+    width: 100px;
+}
+
+#button-divide, #button-multiply, #button-minus, 
+#button-addition, #button-equal {
+    background-color: #2e1f39;
+    color: #720f8a;
+    font-weight: 900;
+}
+
+#button-clear, #button-delete, #button-root {
+    background-color: #223323;
+    color: black;
+    font-weight: 900;
+}
