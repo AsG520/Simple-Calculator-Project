@@ -3,6 +3,8 @@
 Features in Design
 
 Math Concepts in Design
+- Division, Multiplication, Subtracting, and Addition of Decimals or Real Numbers.
+- Square Root (Radical Symbol)
 
 How it Works
 
