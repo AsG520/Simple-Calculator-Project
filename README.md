@@ -1,5 +1,8 @@
 # Simple Calculator Project
 
+Visual of Design
+<img width="430" height="491" alt="Image" src="https://github.com/user-attachments/assets/e7009cf5-eadf-4692-952f-9686c54d6776" />
+
 Features in Design
 
 Math Concepts in Design
@@ -20,4 +23,4 @@ How to Run
 2) Copy the CSS code into a CSS file named "style.css".
 3) Copy the JS code into a JS file named "function.js".
 4) Make sure the files are in the same directory, or else program will fail to operate. 
-5) Run the program using your Live Reloading or Hot Reloading downloaded extension. 
+5) Run the program using your Live Reloading or Hot Reloading downloaded extension.
