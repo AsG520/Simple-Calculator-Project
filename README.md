@@ -1,6 +1,7 @@
 # Simple Calculator Project
 
 Visual of Design
+<br>
 <img width="430" height="491" alt="Image" src="https://github.com/user-attachments/assets/e7009cf5-eadf-4692-952f-9686c54d6776" />
 
 Features in Design
