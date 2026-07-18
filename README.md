@@ -5,6 +5,12 @@ Visual of Design
 <img width="330" height="391" alt="Image" src="https://github.com/user-attachments/assets/e7009cf5-eadf-4692-952f-9686c54d6776" />
 
 Features in Design
+- Color schemed number, operator, and general buttons. 
+- Includes visual appealing white smoke effect around perimeter.
+- Models a non-scientific calculator, only functions basic arithmetic.
+- Modern dark colorway for strong apperance towards users.
+- Enhanced with smart error and logic detection with conditional statements.
+- Soft linear gradient used for background to bring attention towards calculator.
 
 Math Concepts in Design
 - Division, Multiplication, Subtracting, and Addition of Decimal or Real Numbers.
