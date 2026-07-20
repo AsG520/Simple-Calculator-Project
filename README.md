@@ -20,8 +20,8 @@ How it Works
 - Click on the number and operator buttons to make equation.
 - To clear everything in the input, click the AC button.
 - The DEL button will remove the previous character in your expression.
-- Square rooting a number will require you to choose number and then clicking the radical symbol button.
-- Doing decimal number calculations can be done, clicking the point button will enchance your number with a decimal. 
+- Square rooting a number will require you to choose number first and then click on the radical symbol.
+- Doing decimal number calculations can be done by clicking the point button, which will enhance your number with a following decimal at that position.
 
 Requirements
 - IDE (e.g., VS Code, Eclipse, or IntelliJ).
