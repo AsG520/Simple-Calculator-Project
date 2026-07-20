@@ -17,6 +17,11 @@ Math Concepts in Design
 - Square Root (Radical Symbol)
 
 How it Works
+- Click on the number and operator buttons to make equation.
+- To clear everything in the input, click the AC button.
+- The DEL button will remove the previous character in your expression.
+- Square rooting a number will require you to choose number and then clicking the radical symbol button.
+- Doing decimal number calculations can be done, clicking the point button will enchance your number with a decimal. 
 
 Requirements
 - IDE (e.g., VS Code, Eclipse, or IntelliJ).
