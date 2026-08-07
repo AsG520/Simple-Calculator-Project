@@ -1,5 +1,13 @@
 # Simple Calculator Project
 
+## Table of Contents
+- Visual of Design
+- Features in Design
+- Math Concepts in Design
+- How it Works
+- Requirements
+- How to Run
+
 ## Visual of Design
 <img width="330" height="391" alt="Image" src="https://github.com/user-attachments/assets/e7009cf5-eadf-4692-952f-9686c54d6776" />
 
